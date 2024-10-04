@@ -1,0 +1,25 @@
+// Layout da seção "benefits"
+.benefit-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  // Testemunhos (depoimentos)
+  .testimonial-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .testimonial-item {
+    background-color: $primary-color;
+    padding: 20px;
+    border-radius: 15px;
+    transition: transform 0.3s;
+  
+    &:hover {
+      transform: translateY(-5px);
+    }
+  }
+  
